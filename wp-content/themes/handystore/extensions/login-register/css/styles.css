@@ -1,0 +1,182 @@
+.widget_pt_login_widget {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form.ajax-auth{
+    display: none;
+    z-index: 999;
+	position: fixed;
+    top: 50%;
+	left: 50%;
+	width: 350px;
+	margin-left: -175px;
+    padding: 40px 25px 25px 25px;
+	background-color: #FFFFFF;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-family: "Roboto",sans-serif;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);   
+    color: #6e7073;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#login {
+    margin-top: -165px;
+}
+
+#register {
+    margin-top: -270px;
+}
+
+.ajax-auth h1, 
+.ajax-auth h3{
+    font-weight: 300;
+    color: #393e45;    
+	line-height: 1;  
+    text-align: center;  
+}
+
+.ajax-auth h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.ajax-auth h3{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.ajax-auth hr {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.ajax-auth input#username,
+.ajax-auth input#password,
+.ajax-auth input#signonname,
+.ajax-auth input#email,
+.ajax-auth input#signonpassword,
+.ajax-auth input#password2{
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: none;
+    color: #333333;
+    font-size: 14px;
+    padding: 10px 10px 10px 13px;
+    width: 325px;
+    margin: 7px 0 20px 0;
+    background-color: #fff;
+}
+
+.ajax-auth input#username:focus,
+.ajax-auth input#password:focus,
+.ajax-auth input#signonname:focus,
+.ajax-auth input#email:focus,
+.ajax-auth input#signonpassword:focus,
+.ajax-auth input#password2:focus{
+    box-shadow: 0 0 2px #c2d44e; /* color equal to main_decorative_color */
+    -webkit-box-shadow: 0 0 2px #c2d44e;
+    outline: 0;
+}
+
+.ajax-auth label {
+    font-weight: 300;
+}
+
+.ajax-auth .required {
+    color: #c0392b;
+    padding: 0 0 0 2px;
+}
+
+.ajax-auth label.error{
+	display: none !important;
+}
+
+.ajax-auth input.error{
+	border: 1px solid #FF0000 !important;
+    box-shadow: none !important;
+}
+
+.ajax-auth input.submit_button{
+    font-size: 15px;
+    color: #FFF;
+    border: 0 none;
+    background-color: #c2d44e;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 0 25px;
+    float: right;
+    font-weight: 300;
+}
+
+.ajax-auth input.submit_button:hover{
+    background-color: #b5c648;
+}
+
+.ajax-auth a{
+    text-decoration: none;
+    color: #c2d44e;
+}
+
+.ajax-auth a:hover,
+.ajax-auth a:focus,
+.ajax-auth a:active {
+    color: #b5c648;
+}
+
+.ajax-auth a.close{
+    color: #DCDCDC;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 12px;
+}
+
+.ajax-auth a.text-link{
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.ajax-auth p.status{
+    text-align: center;
+    margin: 5px 0 20px 0;
+	font-weight: 400;
+    display: none;
+    color: #c0392b;
+}
+
+a.login_button{
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a.login_button i {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.login_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 998;
+}
+
+#register input.submit_button {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 110px;
+}
