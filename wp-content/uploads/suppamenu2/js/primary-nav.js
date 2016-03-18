@@ -18,7 +18,7 @@
         suppa_js_settings.logo_retina_src       = '';
         suppa_js_settings.rwd_logo_src          = '';
         suppa_js_settings.rwd_logo_retina_src   = '';
-        suppa_js_settings.site_url              = 'http://local.dev/4ecommerce-handy';
+        suppa_js_settings.site_url              = 'http://localhost/wordpress';
         suppa_js_settings.recent_posts_view_all = 'off';
 
 	    jQuery('.primary-nav').suppamenu( suppa_js_settings );
